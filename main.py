@@ -15,7 +15,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main():
-    TOKEN = os.getenv("BOT_TOKEN")  # ✅ токен теперь берётся из переменной окружения
+    TOKEN = "7874681564:AAGH9Lu6M81DF6n217hICJvISuQpwuHfoaw"
+    # TOKEN = os.getenv("BOT_TOKEN")  # ✅ токен теперь берётся из переменной окружения
 
     app = Application.builder().token(TOKEN).build()
 
